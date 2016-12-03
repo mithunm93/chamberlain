@@ -1,6 +1,10 @@
 # chamberlain
 Open and close your cloud connected myQ garage door through using requests.
 
+# WARNING
+You've got to be careful because this could potentially give people access to
+your house, make sure you know what you're getting into before using this.
+
 You need to create a `private.json` file with some keys:
 ```
 {
