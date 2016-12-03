@@ -1,0 +1,9 @@
+{
+  "openDoorImg": "icon_door_9",
+  "changingDoorImg": "icon_door_8",
+  "closedDoorImg": "icon_door_2",
+  "actions": {
+    "open": "open",
+    "close": "close"
+  }
+}
