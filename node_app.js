@@ -7,9 +7,10 @@ var exec = require("child_process").exec;
 var port = process.env.PORT || 3000;
 var app = express();
 
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
 
 app.post("/control", function (req, res) {
+
   if (req.body.secret === private.secret) {
     function puts(error, stdout, stderr) { console.log(stdout) }
     let action;
